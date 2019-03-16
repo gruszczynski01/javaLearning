@@ -11,7 +11,7 @@ public class Flashcard
         System.out.println("Front side: ");
         frontSide = Main.sc.nextLine();
         System.out.println("Back side: ");
-        Main.sc.nextLine();
+        backSide = Main.sc.nextLine();
     }
     public Flashcard(String frontSide, String backSide)
     {

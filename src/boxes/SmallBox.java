@@ -17,4 +17,7 @@ public class SmallBox {
         flashcards.remove(flashcard);
     }
 
+    public void printSmallBoxElement(){
+        System.out.println(flashcards);
+    }
 }
