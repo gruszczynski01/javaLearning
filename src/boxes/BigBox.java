@@ -2,6 +2,8 @@ package boxes;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -67,7 +69,7 @@ public class BigBox {
         smallBoxes.get(4).printSmallBoxElement();
 
     }
-    public void loadFlashCards() throws FileNotFoundException {
+    public void loadFlashcards() throws FileNotFoundException {
         String frontSide;
         String backSide;
 
@@ -84,6 +86,24 @@ public class BigBox {
             }
         }
         sc.close();
+    }
+    public void saveFlashcards() throws IOException {
+        FileWriter fileWriter = new FileWriter("SB1.csv");
+        String filesNames[] = {"SB1.csv", "SB2.csv", "SB3.csv", "SB4.csv", "SB5.csv"};
+        for(int i =0; i<5; i++)
+        {
+            fileWriter = new FileWriter(filesNames[i]);
+            for(Flashcard tmp: smallBoxes.get(i).flashcards)
+            {
+
+                System.out.println(tmp.getFrontSide() + "\n");
+                System.out.println(tmp.getBackSide() + "\n");
+                fileWriter.write(tmp.getFrontSide() + "\n");
+                fileWriter.write(tmp.getBackSide() + "\n");
+            }
+            fileWriter.close();
+        }
+
     }
     public void test()
     {
@@ -107,7 +127,7 @@ public class BigBox {
                 System.out.println("Front side: " + frontSide + "\nBack side: ");
                 userAnswer = Main.sc.nextLine();
                 backSide = flashcard.getBackSide();
-                if (backSide.equals(userAnswer))
+                if (backSide.equalsIgnoreCase(userAnswer))
                 {           //if user answered well
                     if (smallBoxNumber != 4)
                     {

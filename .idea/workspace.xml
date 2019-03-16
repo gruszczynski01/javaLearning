@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7fe08c9-f73d-400a-bbb1-16adb45fcf81" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SB1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SB1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SB2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SB2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SB3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SB3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SB5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SB5.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_projects/boxes/BigBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_projects/boxes/BigBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_projects/javaLearning/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_projects/javaLearning/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/boxes/BigBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boxes/BigBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boxes/SmallBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boxes/SmallBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/javaLearning/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaLearning/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,23 +42,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4967" />
+          <entry key="java" value="5202" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4967" />
+          <entry key="JAVA" value="5202" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/javaLearning/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="99">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/boxes/BigBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="70" column="25" lean-forward="true" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+            <state relative-caret-position="387">
+              <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#248#258#0" expanded="true" />
@@ -103,7 +109,6 @@
                 <element signature="method#BigBox#1;class#BigBox#0" />
                 <element signature="e#1540#1541#0" expanded="true" />
                 <element signature="e#1565#1566#0" expanded="true" />
-                <element signature="method#test#0;class#BigBox#0" />
               </folding>
             </state>
           </provider>
@@ -125,8 +130,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/flashcards/Flashcard.java" />
-        <option value="$PROJECT_DIR$/src/javaLearning/Main.java" />
         <option value="$PROJECT_DIR$/src/boxes/SmallBox.java" />
+        <option value="$PROJECT_DIR$/src/javaLearning/Main.java" />
         <option value="$PROJECT_DIR$/src/boxes/BigBox.java" />
       </list>
     </option>
@@ -176,7 +181,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552770886272" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552775287336" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -231,7 +236,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2274678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -242,7 +246,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6987952" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -302,16 +306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javaLearning/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/flashcards/Flashcard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -341,8 +335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/boxes/BigBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="70" column="25" lean-forward="true" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+        <state relative-caret-position="387">
+          <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#248#258#0" expanded="true" />
@@ -350,7 +344,16 @@
             <element signature="method#BigBox#1;class#BigBox#0" />
             <element signature="e#1540#1541#0" expanded="true" />
             <element signature="e#1565#1566#0" expanded="true" />
-            <element signature="method#test#0;class#BigBox#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaLearning/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
