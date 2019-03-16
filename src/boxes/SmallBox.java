@@ -8,7 +8,7 @@ import java.util.List;
 public class SmallBox {
     public List<Flashcard> flashcards = new ArrayList<Flashcard>();
 
-    public void addFlascard(Flashcard flashcard)
+    public void addFlashcard(Flashcard flashcard)
     {
         flashcards.add(flashcard);
     }

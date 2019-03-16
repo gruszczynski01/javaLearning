@@ -1,9 +1,11 @@
 package boxes;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-import boxes.SmallBox;
+import java.util.Scanner;
+
 import flashcards.Flashcard;
 import javaLearning.Main;
 
@@ -52,16 +54,37 @@ public class BigBox {
         //more action here in the future
     }
     public void addFlashcardToBox(){
-        smallBoxes.get(0).addFlascard(new Flashcard());
+        smallBoxes.get(0).addFlashcard(new Flashcard());
+    }
+    public void loadFlashcardToBox(String frontSide, String backSide, int boxNumber){
+        smallBoxes.get(boxNumber).addFlashcard(new Flashcard(frontSide, backSide));
     }
     public void printAllSmallBoxes(){
-        System.out.println(smallBoxes.get(0));
-        System.out.println(smallBoxes.get(1));
-        System.out.println(smallBoxes.get(2));
-        System.out.println(smallBoxes.get(3));
-        System.out.println(smallBoxes.get(4));
-    }
+        smallBoxes.get(0).printSmallBoxElement();
+        smallBoxes.get(1).printSmallBoxElement();
+        smallBoxes.get(2).printSmallBoxElement();
+        smallBoxes.get(3).printSmallBoxElement();
+        smallBoxes.get(4).printSmallBoxElement();
 
+    }
+    public void loadFlashCards() throws FileNotFoundException {
+        String frontSide;
+        String backSide;
+
+        Scanner sc = new Scanner("SB1.csv");
+        String filesNames[] = {"SB1.csv", "SB2.csv", "SB3.csv", "SB4.csv", "SB5.csv"};
+        for(int i = 0; i <5; i++)
+        {
+            sc = new Scanner(new File(filesNames[i]));
+            while(sc.hasNextLine())
+            {
+                frontSide = sc.nextLine();
+                backSide = sc.nextLine();
+                loadFlashcardToBox(frontSide, backSide, i);
+            }
+        }
+        sc.close();
+    }
     public void test()
     {
         System.out.println("++++++++++START TEST++++++++++++");
