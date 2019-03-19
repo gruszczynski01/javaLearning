@@ -2,17 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7fe08c9-f73d-400a-bbb1-16adb45fcf81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SB1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SB1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SB2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SB2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SB3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SB3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SB5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SB5.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_projects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_projects/SB1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_projects/SB2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_projects/SB3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_projects/SB4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_projects/SB5.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java_projects/boxes/BigBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_projects/boxes/BigBox.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java_projects/javaLearning/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_projects/javaLearning/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boxes/BigBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boxes/BigBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaLearning/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaLearning/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SB1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SB2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SB3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SB4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SB5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boxes/BigBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boxes/SmallBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flashcards/Flashcard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaLearning/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,32 +64,36 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="4" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="4" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5202" />
+          <entry key="java" value="5214" />
+          <entry key="xml" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5202" />
+          <entry key="JAVA" value="5214" />
+          <entry key="XML" value="30" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/javaLearning/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javaLearning/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,11 +101,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/flashcards/Flashcard.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state relative-caret-position="210">
+              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/flashcards/Flashcard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding>
                 <element signature="e#531#532#0" expanded="true" />
                 <element signature="e#563#564#0" expanded="true" />
@@ -82,10 +126,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/boxes/SmallBox.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/boxes/SmallBox.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#269#270#0" expanded="true" />
@@ -98,17 +142,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/boxes/BigBox.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/boxes/BigBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+            <state relative-caret-position="-440">
+              <caret line="60" column="84" lean-forward="true" selection-start-line="60" selection-start-column="84" selection-end-line="60" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#248#258#0" expanded="true" />
-                <element signature="method#BigBox#0;class#BigBox#0" />
-                <element signature="method#BigBox#1;class#BigBox#0" />
-                <element signature="e#1540#1541#0" expanded="true" />
-                <element signature="e#1565#1566#0" expanded="true" />
+                <element signature="method#congratulationNotification#0;class#BigBox#0" />
+                <element signature="method#loadFlashcards#0;class#BigBox#0" />
+                <element signature="method#saveFlashcards#0;class#BigBox#0" />
               </folding>
             </state>
           </provider>
@@ -123,6 +166,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -131,14 +182,59 @@
       <list>
         <option value="$PROJECT_DIR$/src/flashcards/Flashcard.java" />
         <option value="$PROJECT_DIR$/src/boxes/SmallBox.java" />
-        <option value="$PROJECT_DIR$/src/javaLearning/Main.java" />
         <option value="$PROJECT_DIR$/src/boxes/BigBox.java" />
+        <option value="$PROJECT_DIR$/src/javaLearning/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaLearning/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="714" />
     <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -161,18 +257,6 @@
               <item name="Java_projects" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Java_projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_projects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="boxes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_projects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="javaLearning" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -181,7 +265,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552775287336" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552994029990" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -235,7 +320,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2274678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -246,7 +332,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6987952" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4554217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -306,10 +392,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/flashcards/Flashcard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaLearning/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/flashcards/Flashcard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
             <element signature="e#531#532#0" expanded="true" />
             <element signature="e#563#564#0" expanded="true" />
@@ -319,10 +415,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/boxes/SmallBox.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/boxes/SmallBox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#269#270#0" expanded="true" />
@@ -333,28 +429,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/boxes/BigBox.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/boxes/BigBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+        <state relative-caret-position="-440">
+          <caret line="60" column="84" lean-forward="true" selection-start-line="60" selection-start-column="84" selection-end-line="60" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#248#258#0" expanded="true" />
-            <element signature="method#BigBox#0;class#BigBox#0" />
-            <element signature="method#BigBox#1;class#BigBox#0" />
-            <element signature="e#1540#1541#0" expanded="true" />
-            <element signature="e#1565#1566#0" expanded="true" />
+            <element signature="method#congratulationNotification#0;class#BigBox#0" />
+            <element signature="method#loadFlashcards#0;class#BigBox#0" />
+            <element signature="method#saveFlashcards#0;class#BigBox#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javaLearning/Main.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
         </state>
       </provider>
     </entry>

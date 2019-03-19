@@ -43,7 +43,7 @@ public class BigBox {
     }
     @Override
     public String toString(){
-        System.out.println("This is main box");
+        System.out.println("This is the main box");
         return "BigBox{" +
                 "owner='" + owner + '\'' +
                 ", title='" + title + '\'' +

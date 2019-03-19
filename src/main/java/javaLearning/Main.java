@@ -2,7 +2,6 @@ package javaLearning;
 
 import boxes.BigBox;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -19,7 +18,5 @@ public class Main {
         box.test();
         box.printAllSmallBoxes();
         box.saveFlashcards();
-
-
     }
 }
